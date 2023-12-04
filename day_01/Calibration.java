@@ -32,7 +32,7 @@ public class Calibration {
 		int iValue = 0, jValue = 0;
 		boolean ifound = false, jfound = false;
 
-		while (i != j) {
+		while (i <= j) {
 			if (!ifound && Character.isDigit(input.charAt(i))) {
 				ifound = true;
 				iValue = Integer.parseInt(Character.toString(input.charAt(i)));
